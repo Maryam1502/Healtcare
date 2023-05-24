@@ -60,10 +60,6 @@ public class FirstSelTest {
     
     @BeforeMethod
     public void setUpMethod() throws Exception {
-        
-        System.setProperty("webdriver.chrome.driver", "C:\\data\\chromedriver.exe");
-      
-        driver.manage().window().maximize();
        
     }
     
