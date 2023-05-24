@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="test.com.FirstSelTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- test.com.FirstSelTest -->
+      <class name="test.com.AmitaTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="amita1"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpMethod"/>
+        </methods>
+      </class> <!-- test.com.AmitaTest -->
+      <class name="test.com.PriceTranparencyTest">
+        <methods>
+          <include name="testPriceEstimator"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDownClass"/>
+          <include name="setUpMethod"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- test.com.PriceTranparencyTest -->
+      <class name="test.com.SpecialtyCareTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- test.com.SpecialtyCareTest -->
+      <class name="test.com.CareerTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="testCareesrTestCase"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpMethod"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- test.com.CareerTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
